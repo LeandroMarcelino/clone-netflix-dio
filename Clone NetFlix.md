@@ -37,19 +37,29 @@ para isso temos que utilizar o elemento :root
 
 - [O que é mockup](https://www.futuraexpress.com.br/blog/o-que-e-mockup/)
 
-- Utilize o figma ou adobobe XD
+- Utilize o figma ou adobe XD
 
 
 
 **estilizando o logo e a navegação**
 
+- Criando o miolo do site
+
+- Formatação principal.
+
+- Para referenciar uma imagem em css
+
+  Ex:
+
+   background: url('/img/hcards.jpg');
+
 git ok
 
-Criando o miolo do site
 
-Para referenciar uma imagem em css
 
-Ex:
+Formatação principal parte 2 
 
- background: url('/img/hcards.jpg');
+Estilizando os botões do site
+
+formatando os botões com icones externos via [fontawesome](https://fontawesome.com/) 
 
