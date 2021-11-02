@@ -40,7 +40,7 @@ header nav :hover{
 /*Filme Principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/hcards.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-house.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -85,4 +85,11 @@ header nav :hover{
 
 .filme-principal .container{
     width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
 }
