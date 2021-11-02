@@ -41,3 +41,15 @@ para isso temos que utilizar o elemento :root
 
 
 
+**estilizando o logo e a navegação**
+
+git ok
+
+Criando o miolo do site
+
+Para referenciar uma imagem em css
+
+Ex:
+
+ background: url('/img/hcards.jpg');
+

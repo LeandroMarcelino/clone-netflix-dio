@@ -7,16 +7,22 @@
     ​padding: 0;
     ​box-sizing: border-box;
 }
+/*Elementos base*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
-    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo{
+    margin-left: 5px;
     color: var(--vermeho);
     font-family: 'arial black';
     font-size: 40px;
@@ -29,4 +35,23 @@ header nav a{
 
 header nav :hover{
     color: #fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/hcards.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.filme-principal .descricao{
+    margin-bottom: 40px ;
+}
+.titulo{
+    font-size: 40px;
 }
