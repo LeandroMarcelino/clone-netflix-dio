@@ -59,7 +59,8 @@ header nav :hover{
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-.botao{
+
+.botao {
     background-color:rgba(0,0,0,.50);
     border: none;
     color: white;
@@ -71,6 +72,8 @@ header nav :hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+
+
 .botao:hover{
     background-color: white;
     color: black;
@@ -79,6 +82,12 @@ header nav :hover{
     margin-right: 8px;
     
 }
+a:link{
+    text-decoration: none;
+   }
+  .botao a{
+      color: white;
+  }
 
 .container{
     margin-left: 20px;

@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/modal.css">
+
+    <!--responsividade  -->
+    <link rel="stylesheet" href="style/responsive.css">
 
     <!--Owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -31,8 +35,9 @@
                 <h3 class="titulo">HOUSE OF CARDS</h3>
                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste
                     drama vencedor do Emmy e do Globo de Ouro.</p>
-                <div class="botoes">
-                    <button role="button" class="botao">
+               
+                <div  class="botoes">
+                    <button id="myBtn" role="button" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
@@ -40,8 +45,20 @@
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
+                     <!-- Trigger/Open The Modal   -->
+                    <div id="myModal" class="modal">  
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <video id="myVideo" width="100%" controls>
+                                <source src="./video/1434659454657-dx9ykf-1539003974745.mp4" type="video/mp4">
+                                Your browser does not support HTML video.
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
 
 
         </div>
@@ -78,12 +95,17 @@
             <div class="item">
                 <img class="filme" src="img/mini10.jpg" alt="" srcset="">
             </div>
-            
+
         </div>
     </div>
     <script src="https://kit.fontawesome.com/73d14b10b9.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/modal.js"></script>
+    
+</body>
+
+</html>
 
 </html>
