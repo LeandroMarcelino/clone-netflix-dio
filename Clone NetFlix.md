@@ -53,13 +53,29 @@ para isso temos que utilizar o elemento :root
 
    background: url('/img/hcards.jpg');
 
-git ok
+**Formatação principal parte 2** 
+
+- Estilizando os botões do site
+
+- Formatando os botões com icones externos via [fontawesome](https://fontawesome.com/) 
 
 
 
-Formatação principal parte 2 
+**Classe Wrapper** - Envelopar
 
-Estilizando os botões do site
 
-formatando os botões com icones externos via [fontawesome](https://fontawesome.com/) 
+
+**Criando o carrossel do site**
+
+- Usando o [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
+
+  **Trabalhando com responsividade**
+
+  
+
+
+
+
+
+
 
