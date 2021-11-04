@@ -59,8 +59,10 @@ header nav :hover{
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-
-
+/*Ocultar boatão menos informações*/
+button .menosInfo{  
+    display:none;
+}
 .botao {
     background-color:rgba(0,0,0,.50);
     border: none;
@@ -107,10 +109,7 @@ a:link{
 
 /* Formatando informações */
 /*Ocultar informações*/
+
 #infoView{ 
-    display:none;
-}
-/*Ocultar boatão menos informações*/
- .menosInfo{ 
     display:none;
 }

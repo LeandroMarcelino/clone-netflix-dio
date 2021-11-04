@@ -31,7 +31,7 @@
     </header>
     <main>
         <div class="filme-principal">
-            <div  class="container">
+            <div class="container">
                 <h3 class="titulo">HOUSE OF CARDS</h3>
                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste
                     drama vencedor do Emmy e do Globo de Ouro.</p>
@@ -45,7 +45,7 @@
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
-                    <button id="menosInfo" role="button" class="botao menosInfo">
+                    <button id="menosInfo" role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MENOS INFORMAÇÕES
                     </button>
@@ -118,38 +118,7 @@
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
     <script src="js/modal.js"></script>
-    <script>
-
-
-
-        // Formatando informações 
-
-
-        var info = document.getElementById("infoViewer");
-        var infoView = document.getElementById("infoView");
-        var carrosel = document.getElementById("carrosel");
-        var menosInfo = document.getElementById("menosInfo");
-        var container = document.getElementsByClassName("container");
-
-            //Ocultar botão mais informações e o carrosel e mostrar as informações e o botão menos informações
-        info.onclick = function () {
-            infoView.style.display = "block";
-            carrosel.style.display = "none";
-            menosInfo.style.display = "block";
-            info.style.display = "none";
-            container.style.justifyContent = "space-between";
-
-        }
-        // Ocultar o botão menos infortmações e a mensagem e voltar a mostrar o carrosel 
-        menosInfo.onclick = function () {
-            carrosel.style.display = "block";
-            infoView.style.display = "none";
-            menosInfo.style.display = "none";
-            info.style.display = "block";
-            container.style.justifyContent = "space-between";
-        }
-    </script>
-
+    
 </body>
 
 </html>
