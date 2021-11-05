@@ -25,12 +25,15 @@ header .logo{
     margin-left: 5px;
     color: var(--vermeho);
     font-family: 'arial black';
-    font-size: 40px;
+    font-size: 30px;
 }
 header nav a{
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+;
 }
 
 header nav :hover{
