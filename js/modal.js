@@ -32,6 +32,7 @@ descricao.onclick = function () {
 if (descricao.innerHTML === "MAIS INFORMAÇÕES") {
   descricao.innerHTML = "MENOS INFORMAÇÕES!";
   infoView.style.display = "block";
+  infoView.innerHTML = "O Capitão da Casa da Maioridade, Francis Underwood, leva você a uma longa jornada enquanto ele exige sua vingança contra aqueles que ele sente que o prejudicaram – isto é, seus próprios membros do gabinete, incluindo o próprio Presidente dos Estados Unidos. Arrojado, astuto, metódico e vicioso, Frank Underwood, juntamente com sua esposa igualmente manipuladora, mas ambígua, Claire, toma Washington de assalto através da escalada da hierarquia do poder nesta recreação americanizada da série da BBC com o mesmo nome"
   carrosel.style.display = "none";
 } else {
   descricao.innerHTML = "MAIS INFORMAÇÕES";
